@@ -1,9 +1,8 @@
-# next-ts-template
+# github-oauth-example
 
 ## Usage
 
-```
-yarn create next-app ${app_name} --example "https://github.com/poad/next-ts-minimal-template"
-cd ${app_name}
-rm -rf .github
+```sh
+yarn install
+yarn dev
 ```
