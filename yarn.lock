@@ -3784,9 +3784,9 @@ micromark-extension-mdx-expression@^1.0.0:
     uvu "^0.5.0"
 
 micromark-extension-mdx-jsx@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/micromark-extension-mdx-jsx/-/micromark-extension-mdx-jsx-1.0.2.tgz#966817c1c0920e6bf311dd75e07eaf4a069d933b"
-  integrity sha512-MBppeDuXEBIL1uo4B/bL5eJ1q3m5pXzdzIWpOnJuzzBZF+S+9zbb5WnS2K/LEVQeoyiLzOuoteU4SFPuGJhhWw==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/micromark-extension-mdx-jsx/-/micromark-extension-mdx-jsx-1.0.3.tgz#9f196be5f65eb09d2a49b237a7b3398bba2999be"
+  integrity sha512-VfA369RdqUISF0qGgv2FfV7gGjHDfn9+Qfiv5hEwpyr1xscRj/CiVRkU7rywGFCO7JwJ5L0e7CJz60lY52+qOA==
   dependencies:
     "@types/acorn" "^4.0.0"
     estree-util-is-identifier-name "^2.0.0"
