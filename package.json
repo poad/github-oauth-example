@@ -19,7 +19,7 @@
     "@mdx-js/react": "^2.0.0",
     "@mui/icons-material": "^5.5.0",
     "@mui/material": "^5.5.0",
-    "@mui/styles": "^5.5.0",
+    "@mui/styles": "^5.5.1",
     "@next/mdx": "^12.1.0",
     "@types/react": "^17.0.40",
     "next": "^12.1.0",
