@@ -5182,9 +5182,11 @@ unist-util-position-from-estree@^1.0.0, unist-util-position-from-estree@^1.1.0:
     "@types/unist" "^2.0.0"
 
 unist-util-position@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-4.0.1.tgz#f8484b2da19a897a0180556d160c28633070dbb9"
-  integrity sha512-mgy/zI9fQ2HlbOtTdr2w9lhVaiFUHWQnZrFF2EUoVOqtAUdzqMtNiD99qA5a1IcjWVR8O6aVYE9u7Z2z1v0SQA==
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-4.0.2.tgz#1915816906a3503f3e40d65b6e4fe6d41845d2e3"
+  integrity sha512-Y6+plxR41dOLbyyqVDLuGWgXDmxdXslCSRYQkSDagBnOT9oFsQH0J8FzhirSklUEe0xZTT0WDnAE1gXPaDFljA==
+  dependencies:
+    "@types/unist" "^2.0.0"
 
 unist-util-remove-position@^4.0.0:
   version "4.0.1"
