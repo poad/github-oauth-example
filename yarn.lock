@@ -5290,9 +5290,9 @@ unist-util-position-from-estree@^1.0.0, unist-util-position-from-estree@^1.1.0:
     "@types/unist" "^2.0.0"
 
 unist-util-position@^4.0.0:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-4.0.2.tgz#1915816906a3503f3e40d65b6e4fe6d41845d2e3"
-  integrity sha512-Y6+plxR41dOLbyyqVDLuGWgXDmxdXslCSRYQkSDagBnOT9oFsQH0J8FzhirSklUEe0xZTT0WDnAE1gXPaDFljA==
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-4.0.3.tgz#5290547b014f6222dff95c48d5c3c13a88fadd07"
+  integrity sha512-p/5EMGIa1qwbXjA+QgcBXaPWjSnZfQ2Sc3yBEEfgPwsEmJd8Qh+DSk3LGnmOM4S1bY2C0AjmMnB8RuEYxpPwXQ==
   dependencies:
     "@types/unist" "^2.0.0"
 
