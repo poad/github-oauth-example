@@ -24,7 +24,7 @@
     "next": "^12.1.5",
     "next-auth": "^4.3.3",
     "react": "^18.1.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.1.0"
   },
   "devDependencies": {
     "@swc/jest": "^0.2.20",
