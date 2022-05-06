@@ -660,17 +660,7 @@
     callsites "^3.0.0"
     graceful-fs "^4.2.9"
 
-"@jest/test-result@^28.0.2":
-  version "28.0.2"
-  resolved "https://registry.yarnpkg.com/@jest/test-result/-/test-result-28.0.2.tgz#bc8e15a95347e3c2149572ae06a5a6fed939c522"
-  integrity sha512-4EUqgjq9VzyUiVTvZfI9IRJD6t3NYBNP4f+Eq8Zr93+hkJ0RrGU4OBTw8tfNzidKX+bmuYzn8FxqpxOPIGGCMA==
-  dependencies:
-    "@jest/console" "^28.0.2"
-    "@jest/types" "^28.0.2"
-    "@types/istanbul-lib-coverage" "^2.0.0"
-    collect-v8-coverage "^1.0.0"
-
-"@jest/test-result@^28.1.0":
+"@jest/test-result@^28.0.2", "@jest/test-result@^28.1.0":
   version "28.1.0"
   resolved "https://registry.yarnpkg.com/@jest/test-result/-/test-result-28.1.0.tgz#fd149dee123510dd2fcadbbf5f0020f98ad7f12c"
   integrity sha512-sBBFIyoPzrZho3N+80P35A5oAkSKlGfsEFfXFWuPGBsW40UAjCkGakZhn4UQK4iQlW2vgCDMRDOob9FGKV8YoQ==
@@ -3321,21 +3311,7 @@ jest-validate@^28.0.2, jest-validate@^28.1.0:
     leven "^3.1.0"
     pretty-format "^28.1.0"
 
-jest-watcher@^28.0.2:
-  version "28.0.2"
-  resolved "https://registry.yarnpkg.com/jest-watcher/-/jest-watcher-28.0.2.tgz#649fa24df531d4071be5784b6274d494d788c88b"
-  integrity sha512-uIVJLpQ/5VTGQWBiBatHsi7jrCqHjHl0e0dFHMWzwuIfUbdW/muk0DtSr0fteY2T7QTFylv+7a5Rm8sBKrE12Q==
-  dependencies:
-    "@jest/test-result" "^28.0.2"
-    "@jest/types" "^28.0.2"
-    "@types/node" "*"
-    ansi-escapes "^4.2.1"
-    chalk "^4.0.0"
-    emittery "^0.10.2"
-    jest-util "^28.0.2"
-    string-length "^4.0.1"
-
-jest-watcher@^28.1.0:
+jest-watcher@^28.0.2, jest-watcher@^28.1.0:
   version "28.1.0"
   resolved "https://registry.yarnpkg.com/jest-watcher/-/jest-watcher-28.1.0.tgz#aaa7b4164a4e77eeb5f7d7b25ede5e7b4e9c9aaf"
   integrity sha512-tNHMtfLE8Njcr2IRS+5rXYA4BhU90gAOwI9frTGOqd+jX0P/Au/JfRSNqsf5nUTcWdbVYuLxS1KjnzILSoR5hA==
