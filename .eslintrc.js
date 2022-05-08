@@ -3,8 +3,7 @@ module.exports = {
     env: {
         browser: true,
         node: true,
-        es2021: true,
-        jest: true
+        es2021: true
     },
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -22,8 +21,7 @@ module.exports = {
     ],
     plugins: [
         'react',
-        '@typescript-eslint',
-        'jest'
+        '@typescript-eslint'
     ],
     settings: {
         react: {

@@ -34,7 +34,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
 
-    - name: Build and Unittest
+    - name: Build
       run: yarn all
 
   configure:
