@@ -7,6 +7,7 @@
     "build": "yarn clean && next build && next export",
     "start": "next start",
     "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
+    "analyze": "ANALYZE=true next build",
     "clean": "rimraf build",
     "all": "yarn install && yarn lint && yarn build"
   },
@@ -27,9 +28,10 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^12.1.6",
     "@swc/jest": "^0.2.21",
     "@types/mdx": "^2.0.1",
-    "@types/node": "^17.0.32",
+    "@types/node": "^17.0.31",
     "@types/react": "^18.0.9",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
@@ -43,6 +45,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0",
+    "next-compose-plugins": "^2.2.1",
     "rimraf": "^3.0.2",
     "swc-loader": "^0.2.0",
     "typescript": "^4.6.4"
