@@ -1,20 +1,20 @@
 /** @type {import('next').NextConfig} */
-const withMDX = require('@next/mdx')({
-    extension: /\.mdx?$/,
-});
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
+import * as mdx from '@next/mdx';
+import * as analyzer from '@next/bundle-analyzer';
+
+const withBundleAnalyzer = analyzer.default({
     enabled: process.env.ANALYZE === 'true',
 });
+const withMDX = mdx.default({ extension: /\.mdx?$/, });
 
-module.exports = withBundleAnalyzer(withMDX({
-        pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx', 'md'],
-        webpack5: true,
-        reactStrictMode: true,
-        esmExternals: true,
-        swcLoader: true,
-        swcMinify: true,
-        experimental: {
-            modern: true,
-        }
+export default withBundleAnalyzer(withMDX({
+    pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx', 'md'],
+    webpack5: true,
+    reactStrictMode: true,
+    esmExternals: true,
+    swcLoader: true,
+    swcMinify: true,
+    experimental: {
+        modern: true,
     }
-));
+}));

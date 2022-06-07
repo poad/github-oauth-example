@@ -24,7 +24,8 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "baseUrl": "src",
+    "sourceRoot": "src",
+    "baseUrl": ".",
     "typeRoots": [
       "./node_modules/@types",
       ".next"
