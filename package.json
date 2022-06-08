@@ -1,11 +1,10 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "next",
-    "build": "yarn clean && next build && next export",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
     "analyze": "ANALYZE=true next build",
