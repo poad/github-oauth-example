@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 import * as mdx from '@next/mdx';
+import withPreact from 'next-plugin-preact';
 import * as analyzer from '@next/bundle-analyzer';
 
 const withBundleAnalyzer = analyzer.default({
@@ -7,7 +8,7 @@ const withBundleAnalyzer = analyzer.default({
 });
 const withMDX = mdx.default({ extension: /\.mdx?$/, });
 
-export default withBundleAnalyzer(withMDX({
+export default withBundleAnalyzer(withMDX(withPreact({
     pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx', 'md'],
     webpack5: true,
     reactStrictMode: true,
@@ -17,4 +18,4 @@ export default withBundleAnalyzer(withMDX({
     experimental: {
         modern: true,
     }
-}));
+})));

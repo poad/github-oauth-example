@@ -24,8 +24,12 @@
     "@next/mdx": "*",
     "next": "*",
     "next-auth": "*",
-    "react": "*",
-    "react-dom": "*"
+    "preact": "*",
+    "preact-render-to-string": "*",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat",
+    "react-ssr-prepass": "npm:preact-ssr-prepass",
+    "web-vitals": "*"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "*",
@@ -45,7 +49,7 @@
     "eslint-plugin-jsx-a11y": "*",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
-    "next-compose-plugins": "*",
+    "next-plugin-preact": "*",
     "rimraf": "*",
     "swc-loader": "*",
     "typescript": "*"
