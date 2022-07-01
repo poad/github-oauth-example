@@ -1212,7 +1212,7 @@ emoji-regex@^9.2.2:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
-enhanced-resolve@^5.9.3:
+enhanced-resolve@^5.10.0:
   version "5.10.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.10.0.tgz#0dc579c3bb2a1032e357ac45b8f3a6f3ad4fb1e6"
   integrity sha512-T0yTFjdpldGY8PmuXXR0PyQ1ufZpEGiHVrp7zHKB7jdR4qlmZHhONVM5AQOAWXuF/w3dnHbEQVrNptJgt7F+cQ==
@@ -1328,13 +1328,13 @@ eslint-import-resolver-node@^0.3.6:
     resolve "^1.20.0"
 
 eslint-import-resolver-typescript@*:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.1.1.tgz#9a3e4b9260a39608b7e42fd12190f19f9913fcc3"
-  integrity sha512-rnC7s69VAXeg3RVhPIhiX8M/fHiPaDyK8zqw8wUDYy34weWQcfyvN5sw/74HhGKiv/teD+BF8bQMZthoyrWTvA==
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.1.3.tgz#ffb2014469184d64ff5ee4cb5b944d9115838fb4"
+  integrity sha512-u7YJAWmgJlpwvKsEl0khVJdRsdLNfReL2Sc8hrc21iEEVEOTKH0Ea3nUtfdlhHuQieJ7lFpOJd0LbDaWpb3+RA==
   dependencies:
     debug "^4.3.4"
-    enhanced-resolve "^5.9.3"
-    get-tsconfig "^4.0.6"
+    enhanced-resolve "^5.10.0"
+    get-tsconfig "^4.1.0"
     globby "^13.1.2"
     is-core-module "^2.9.0"
     is-glob "^4.0.3"
@@ -1692,7 +1692,7 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
-get-tsconfig@^4.0.6:
+get-tsconfig@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.1.0.tgz#325fd5a58ee94596037263ce8b7db0ce8ac7b925"
   integrity sha512-bhshxJhpfmeQ8x4fAvDqJV2VfGp5TfHdLpmBpNZZhMoVyfIrOippBW4mayC3DT9Sxuhcyl56Efw61qL28hG4EQ==
@@ -2758,9 +2758,9 @@ natural-compare@^1.4.0:
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
 next-auth@*:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.7.0.tgz#2d42b44729fde77d9e98a88612daf0ee853b9641"
-  integrity sha512-boXSIzHvCyNq1Jthi24LLnx12iKBsqsMxUKm5qq9alkfhVMeIRUR/wKP0FPSGc1s9WcGXMS3NmKQfADCEb0wow==
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.8.0.tgz#e3985c5333f70854309f641f1d4548a2fe006994"
+  integrity sha512-7vN7akNsAEqV8w1cqZf71UFYw18zy/N5y3xEQz2k3Rju34n7z3+cwdNjGS0FVCoKi/s1wiN27z9ruwlOwiQNsg==
   dependencies:
     "@babel/runtime" "^7.16.3"
     "@panva/hkdf" "^1.0.1"
