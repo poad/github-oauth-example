@@ -60,6 +60,7 @@ NextDocument.getInitialProps = async (ctx: DocumentContext) => {
   const emotionStyleTags = emotionStyles.styles.map((style: { key: React.Key | null | undefined; ids: any[]; css: any; }) => (
     <style
       data-emotion={`${style.key} ${style.ids.join(' ')}`}
+      // eslint-disable-next-line react/no-unknown-property
       key={style.key}
       // eslint-disable-next-line react/no-danger
       dangerouslySetInnerHTML={{ __html: style.css }}
