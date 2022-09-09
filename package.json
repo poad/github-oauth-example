@@ -7,7 +7,7 @@
     "build": "next build && next export",
     "export": "echo \"no action in script. Please run yarn build (includes next export)\"",
     "start": "next start",
-    "lint": "eslint --ext .ts,.js,.tsx,.jsx src",
+    "lint": "eslint --ext .ts,.tsx src .",
     "analyze": "ANALYZE=true next build",
     "clean": "rimraf build",
     "all": "yarn install && yarn lint && yarn build"
@@ -25,11 +25,8 @@
     "@next/mdx": "^12",
     "next": "^12",
     "next-auth": "*",
-    "preact": "*",
-    "preact-render-to-string": "*",
-    "react": "npm:@preact/compat",
-    "react-dom": "npm:@preact/compat",
-    "react-ssr-prepass": "npm:preact-ssr-prepass",
+    "react": "*",
+    "react-dom": "*",
     "web-vitals": "*"
   },
   "devDependencies": {
@@ -50,7 +47,6 @@
     "eslint-plugin-jsx-a11y": "*",
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*",
-    "next-plugin-preact": "*",
     "rimraf": "*",
     "swc-loader": "*",
     "typescript": "*"

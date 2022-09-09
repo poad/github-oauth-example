@@ -1,15 +1,14 @@
 /** @type {import('next').NextConfig} */
-import * as mdx from '@next/mdx';
-import withPreact from 'next-plugin-preact';
-import * as analyzer from '@next/bundle-analyzer';
+import mdx from '@next/mdx';
+import analyzer from '@next/bundle-analyzer';
 
-const withBundleAnalyzer = analyzer.default({
+const withBundleAnalyzer = analyzer({
     enabled: process.env.ANALYZE === 'true',
 });
-const withMDX = mdx.default({ extension: /\.mdx?$/, });
+const withMDX = mdx({ extension: /\.mdx?$/, });
 
-export default withBundleAnalyzer(withMDX(withPreact({
+export default withBundleAnalyzer(withMDX({
     pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx', 'md'],
     reactStrictMode: true,
     swcMinify: true,
-})));
+}));
