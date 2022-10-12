@@ -3141,9 +3141,9 @@ regexpp@^3.2.0:
   integrity sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==
 
 remark-mdx@^2.0.0:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-2.1.4.tgz#6a39054c26bfffe890aaa5f3d4487e7eb7ea6844"
-  integrity sha512-zZxHdd0s8xfMmIKcxhFoUT4x54VOJTUJ+lPys7ZR2Vcgb4xwuAwxvUfkVrsCTdo/lBVxLQv43bXVNu3ZIbahnA==
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-2.1.5.tgz#69b19ec42d30a289e0663c3fc7656ebdca0a8d8e"
+  integrity sha512-A8vw5s+BgOa968Irt8BO7DfWJTE0Fe7Ge3hX8zzDB1DnwMZTNdK6qF2IcFao+/7nzk1vSysKcFp+3ku4vhMpaQ==
   dependencies:
     mdast-util-mdx "^2.0.0"
     micromark-extension-mdxjs "^1.0.0"
