@@ -2100,9 +2100,9 @@ isexe@^2.0.0:
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
 jose@^4.10.0, jose@^4.9.3:
-  version "4.10.1"
-  resolved "https://registry.yarnpkg.com/jose/-/jose-4.10.1.tgz#2d7bd0f4d694f4f9386bdbd53ebc0444a285fa40"
-  integrity sha512-rM5LIwnKutA8XacxxHo0URejTVSZjw69T5SuOz/kgsz/49/nDS+05irg4rEoLMjtHc/b93dexTgqEKJkoSUP/A==
+  version "4.10.3"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-4.10.3.tgz#36ffeae395f14624a99961db6ada957476eccb19"
+  integrity sha512-3S4wQnaoJKSAx9uHSoyf8B/lxjs1qCntHWL6wNFszJazo+FtWe+qD0zVfY0BlqJ5HHK4jcnM98k3BQzVLbzE4g==
 
 js-sdsl@^4.1.4:
   version "4.1.5"
