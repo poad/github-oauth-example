@@ -22,7 +22,7 @@
     "@mui/icons-material": "*",
     "@mui/material": "*",
     "@mui/styles": "*",
-    "@next/mdx": "^12",
+    "@next/mdx": "^13",
     "next": "^12",
     "next-auth": "*",
     "react": "*",
