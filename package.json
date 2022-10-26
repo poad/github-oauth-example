@@ -30,7 +30,7 @@
     "web-vitals": "*"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^12",
+    "@next/bundle-analyzer": "^13",
     "@swc/jest": "*",
     "@types/mdx": "*",
     "@types/node": "*",
