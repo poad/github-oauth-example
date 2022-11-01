@@ -23,7 +23,7 @@
     "@mui/material": "*",
     "@mui/styles": "*",
     "@next/mdx": "^13",
-    "next": "^12",
+    "next": "^13",
     "next-auth": "*",
     "react": "*",
     "react-dom": "*",
