@@ -50,5 +50,8 @@
     "rimraf": "*",
     "swc-loader": "*",
     "typescript": "*"
+  },
+  "resolutions": {
+    "json5": ">=2.2.2"
   }
 }
