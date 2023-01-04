@@ -1570,9 +1570,9 @@ estree-util-visit@^1.0.0:
     "@types/unist" "^2.0.0"
 
 estree-walker@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-3.0.1.tgz#c2a9fb4a30232f5039b7c030b37ead691932debd"
-  integrity sha512-woY0RUD87WzMBUiZLx8NsYr23N5BKsOMZHhu2hoNRVh6NXGfoiT1KOL8G3UHlJAnEDGmfa5ubNA/AacfG+Kb0g==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-3.0.2.tgz#2d17ff18067683aaf97aed83fe0d300603db9b67"
+  integrity sha512-C03BvXCQIH/po+PNPONx/zSM9ziPr9weX8xNhYb/IJtdJ9z+L4z9VKPTB+UTHdmhnIopA2kc419ueyVyHVktwA==
 
 esutils@^2.0.2:
   version "2.0.3"
