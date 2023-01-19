@@ -656,9 +656,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@>=16":
-  version "18.0.26"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.26.tgz#8ad59fc01fef8eaf5c74f4ea392621749f0b7917"
-  integrity sha512-hCR3PJQsAIXyxhTNSiDFY//LhnMZWpNNr5etoCqx/iUfGc5gXWtQR2Phl908jVR6uPXacojQWTg4qRpkxTuGug==
+  version "18.0.27"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.27.tgz#d9425abe187a00f8a5ec182b010d4fd9da703b71"
+  integrity sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3753,9 +3753,9 @@ unist-builder@^3.0.0:
     "@types/unist" "^2.0.0"
 
 unist-util-generated@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/unist-util-generated/-/unist-util-generated-2.0.0.tgz#86fafb77eb6ce9bfa6b663c3f5ad4f8e56a60113"
-  integrity sha512-TiWE6DVtVe7Ye2QxOVW9kqybs6cZexNwTwSMVgkfjEReqy/xwGpAXb99OxktoWwmL+Z+Epb0Dn8/GNDYP1wnUw==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/unist-util-generated/-/unist-util-generated-2.0.1.tgz#e37c50af35d3ed185ac6ceacb6ca0afb28a85cae"
+  integrity sha512-qF72kLmPxAw0oN2fwpWIqbXAVyEqUzDHMsbtPvOudIlUzXYFIeQIuxXQCRCFh22B7cixvU0MG7m3MW8FTq/S+A==
 
 unist-util-is@^5.0.0:
   version "5.1.1"
