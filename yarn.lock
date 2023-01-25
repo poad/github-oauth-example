@@ -2517,9 +2517,9 @@ mdast-util-mdxjs-esm@^1.0.0:
     mdast-util-to-markdown "^1.0.0"
 
 mdast-util-phrasing@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/mdast-util-phrasing/-/mdast-util-phrasing-3.0.0.tgz#c44fcf6be61a3cb8da54ab2df22320e61d4537ce"
-  integrity sha512-S+QYsDRLkGi8U7o5JF1agKa/sdP+CNGXXLqC17pdTVL8FHHgQEiwFGa9yE5aYtUxNiFGYoaDy9V1kC85Sz86Gg==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/mdast-util-phrasing/-/mdast-util-phrasing-3.0.1.tgz#c7c21d0d435d7fb90956038f02e8702781f95463"
+  integrity sha512-WmI1gTXUBJo4/ZmSk79Wcb2HcjPJBzM1nlI/OUWA8yk2X9ik3ffNbBGsU+09BFmXaL1IBb9fiuvq6/KMiNycSg==
   dependencies:
     "@types/mdast" "^3.0.0"
     unist-util-is "^5.0.0"
