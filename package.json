@@ -23,7 +23,6 @@
     "@mui/material": "*",
     "@mui/styles": "*",
     "@next/mdx": "^13",
-    "json5": ">=2.2.2",
     "next": "^13",
     "next-auth": "*",
     "react": "*",
