@@ -524,9 +524,9 @@
     tslib "^2.4.0"
 
 "@swc/jest@*":
-  version "0.2.24"
-  resolved "https://registry.yarnpkg.com/@swc/jest/-/jest-0.2.24.tgz#35d9377ede049613cd5fdd6c24af2b8dcf622875"
-  integrity sha512-fwgxQbM1wXzyKzl1+IW0aGrRvAA8k0Y3NxFhKigbPjOJ4mCKnWEcNX9HQS3gshflcxq8YKhadabGUVfdwjCr6Q==
+  version "0.2.26"
+  resolved "https://registry.yarnpkg.com/@swc/jest/-/jest-0.2.26.tgz#6ef2d6d31869e3aaddc132603bc21f2e4c57cc5d"
+  integrity sha512-7lAi7q7ShTO3E5Gt1Xqf3pIhRbERxR1DUxvtVa9WKzIB+HGQ7wZP5sYx86zqnaEoKKGhmOoZ7gyW0IRu8Br5+A==
   dependencies:
     "@jest/create-cache-key-function" "^27.4.2"
     jsonc-parser "^3.2.0"
@@ -1485,9 +1485,9 @@ eslint-scope@^5.1.1:
     estraverse "^4.1.1"
 
 eslint-scope@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-7.1.1.tgz#fff34894c2f65e5226d3041ac480b4513a163642"
-  integrity sha512-QKQM/UXpIiHcLqJ5AOyIW7XZmzjkzQXYE54n1++wb0u9V/abW3l9uQnxX8Z5Xd18xyKIMTUAyQ0k1e8pz6LUrw==
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-7.2.0.tgz#f21ebdafda02352f103634b96dd47d9f81ca117b"
+  integrity sha512-DYj5deGlHBfMt15J7rdtyKNq/Nqlv5KfU4iodrQ019XESsRnwXH9KAE0y3cwtUHDo2ob7CypAnCqefh6vioWRw==
   dependencies:
     esrecurse "^4.3.0"
     estraverse "^5.2.0"
@@ -2446,9 +2446,9 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 lru-cache@^9.0.0:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-9.0.1.tgz#ac061ed291f8b9adaca2b085534bb1d3b61bef83"
-  integrity sha512-C8QsKIN1UIXeOs3iWmiZ1lQY+EnKDojWd37fXy1aSbJvH4iSma1uy2OWuoB3m4SYRli5+CUjDv3Dij5DVoetmg==
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-9.0.2.tgz#97f13c6b20532fba9bae821c39cd7d471f65119d"
+  integrity sha512-7zYMKApzQ9qQE13xQUzbXVY3p2C5lh+9V+bs8M9fRf1TF59id+8jkljRWtIPfBfNP4yQAol5cqh/e8clxatdXw==
 
 markdown-extensions@^1.0.0:
   version "1.1.1"
