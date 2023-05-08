@@ -38,7 +38,7 @@
     "@swc/jest": "*",
     "@types/mdx": "*",
     "@types/node": "*",
-    "@types/react": "*",
+    "@types/react": "^18",
     "rimraf": "*",
     "rome": "*",
     "swc-loader": "*",
