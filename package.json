@@ -8,7 +8,6 @@
     "export": "echo \"no action in script. Please run yarn build (includes next export)\"",
     "start": "next start",
     "clean": "rimraf build",
-    "postbuild": "next export",
     "format-check": "rome format src",
     "format": "rome format --write src",
     "check": "rome check src",
