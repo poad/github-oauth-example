@@ -1,4 +1,4 @@
-import mdx from '@next/mdx';
+const mdx = require('@next/mdx');
 const withMDX = mdx({ extension: /\.mdx?$/, });
 
 /** @type {import('next').NextConfig} */
@@ -11,4 +11,4 @@ const config = {
   },
 };
 
-export default withMDX(config);
+module.exports = withMDX(config);
