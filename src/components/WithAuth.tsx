@@ -5,7 +5,9 @@ import { Box, Button } from '@mui/material';
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 type WithAuthProps = {};
 
-export default function WithAuth(props: PropsWithChildren<WithAuthProps>): JSX.Element {
+export default function WithAuth(
+  props: PropsWithChildren<WithAuthProps>,
+): JSX.Element {
   const { data: session } = useSession();
 
   if (session) {
@@ -41,4 +43,4 @@ export default function WithAuth(props: PropsWithChildren<WithAuthProps>): JSX.E
       </Box>
     );
   }
-};
+}
