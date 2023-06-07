@@ -1,11 +1,11 @@
-import React, { PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import { Box, Button } from '@mui/material';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 type WithAuthProps = {};
 
-const WithAuth = (props: PropsWithChildren<WithAuthProps>): JSX.Element => {
+export default function WithAuth(props: PropsWithChildren<WithAuthProps>): JSX.Element {
   const { data: session } = useSession();
 
   if (session) {
@@ -42,5 +42,3 @@ const WithAuth = (props: PropsWithChildren<WithAuthProps>): JSX.Element => {
     );
   }
 };
-
-export default WithAuth;

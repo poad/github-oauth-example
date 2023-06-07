@@ -6,6 +6,9 @@ const config = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx', 'md'],
   reactStrictMode: true,
   swcMinify: true,
+  compiler: {
+    emotion: true,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },

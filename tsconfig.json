@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
+    "module": "commonjs",
     "jsx": "preserve",
     "allowJs": true,
     "moduleResolution": "node",
@@ -25,9 +25,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "sourceRoot": "src",
+    "jsxImportSource": "@emotion/react",
     "typeRoots": [
-      "./node_modules/@types",
-      ".next"
+      "./node_modules/@types"
     ],
     "paths": {
       "~/*": [
@@ -40,10 +40,6 @@
         "../*"
       ]
     },
-    "types": [
-      "node",
-      "react"
-    ],
     "incremental": true
   },
   "exclude": [
@@ -56,6 +52,7 @@
   "include": [
     "next-env.d.ts",
     "src/**/*.ts",
-    "src/**/*.tsx"
-, "src/pages/index.mdx"  ]
+    "src/**/*.tsx",
+    "src/pages/index.mdx"
+  ]
 }
