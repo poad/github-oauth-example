@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { SessionProvider } from 'next-auth/react';
 import theme from './theme';
+import StyledJsxRegistry from './registry';
 
 export default function Layout({
   children,
@@ -38,13 +39,14 @@ export default function Layout({
           fontFamily: 'IBM Plex Sans, sans-serifM+ Type-1 (general-j) Regular',
         }}
       >
-        {' '}
-        <SessionProvider session={undefined}>
-          <ThemeProvider theme={theme}>
-            <CssBaseline />
-            {children}
-          </ThemeProvider>
-        </SessionProvider>
+        <StyledJsxRegistry>
+          <SessionProvider session={undefined}>
+            <ThemeProvider theme={theme}>
+              <CssBaseline />
+              {children}
+            </ThemeProvider>
+          </SessionProvider>
+        </StyledJsxRegistry>
       </body>
     </html>
   );
