@@ -35,7 +35,7 @@
   "devDependencies": {
     "@swc/jest": "^0.2.27",
     "@types/mdx": "^2.0.5",
-    "@types/node": "^20.4.5",
+    "@types/node": "^20.4.6",
     "@types/react": "^18.2.18",
     "rimraf": "^5.0.1",
     "rome": "^12.1.3",
