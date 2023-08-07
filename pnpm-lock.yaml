@@ -39,8 +39,8 @@ dependencies:
     specifier: ^13.4.12
     version: 13.4.12(react-dom@18.2.0)(react@18.2.0)
   next-auth:
-    specifier: ^4.22.3
-    version: 4.22.3(next@13.4.12)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^4.22.4
+    version: 4.22.4(next@13.4.12)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -927,12 +927,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node@20.4.7:
-    resolution: {integrity: sha512-bUBrPjEry2QUTsnuEjzjbS7voGWCc30W0qzgMf90GPeDGFRakvrz47ju+oqDAKCXLUCe39u57/ORMl/O/04/9g==}
-
   /@types/node@20.4.8:
     resolution: {integrity: sha512-0mHckf6D2DiIAzh8fM8f3HQCvMKDpK94YQ0DSVkfWTG9BZleYIWudw9cJxX8oCk9bM+vAkDyujDV6dmKHbvQpg==}
-    dev: true
 
   /@types/parse-json@4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -1671,7 +1667,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.4.7
+      '@types/node': 20.4.8
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -2233,8 +2229,8 @@ packages:
   /neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  /next-auth@4.22.3(next@13.4.12)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-XAgy9xV3J2eJOXrQhmxdjV6MLM29ibm6WtMXc3KY6IPZeApf+SuBuPvlqCUfbu5YsAzlg9WSw6u01dChTfeZOA==}
+  /next-auth@4.22.4(next@13.4.12)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-VMI6pq3z4BfvFeCZHBkYtRYa0qqGTYAi2yy3hWCB78KkN1YsSAsOLSssd4oGrQBj0z/0zg2VLzn9tSJ14AtmWw==}
     peerDependencies:
       next: ^12.2.5 || ^13
       nodemailer: ^6.6.5
