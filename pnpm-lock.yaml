@@ -30,8 +30,8 @@ dependencies:
     specifier: ^5.14.4
     version: 5.14.4(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
   '@mui/styles':
-    specifier: ^5.14.3
-    version: 5.14.3(@types/react@18.2.18)(react@18.2.0)
+    specifier: ^5.14.4
+    version: 5.14.4(@types/react@18.2.18)(react@18.2.0)
   '@next/mdx':
     specifier: ^13.4.13
     version: 13.4.13(@mdx-js/loader@2.3.0)(@mdx-js/react@2.3.0)
@@ -488,8 +488,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@mui/styles@5.14.3(@types/react@18.2.18)(react@18.2.0):
-    resolution: {integrity: sha512-6a3znEs0WsHKW5j4458Sc9WqE2MfmPBnAbcyizHsmCKoF196e3uaO6PBXJmIjjNqFMiEmqiFQyGn3zs3jY7AyQ==}
+  /@mui/styles@5.14.4(@types/react@18.2.18)(react@18.2.0):
+    resolution: {integrity: sha512-I4C7q/s17h8AA9FA63oLPdEHnEQlAPNX3zGngxsOYfSLZJB/VhR2SsrkIZFzUazd6a2o2nC997lbAACn3CstKw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@types/react': ^17.0.0 || ^18.0.0
