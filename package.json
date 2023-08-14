@@ -24,7 +24,7 @@
     "@mdx-js/react": "^2.3.0",
     "@mui/icons-material": "^5.14.3",
     "@mui/material": "^5.14.4",
-    "@mui/styles": "^5.14.4",
+    "@mui/styles": "^5.14.5",
     "@next/mdx": "^13.4.13",
     "next": "^13.4.13",
     "next-auth": "^4.23.0",
