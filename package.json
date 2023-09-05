@@ -7,10 +7,10 @@
     "export": "echo \"no action in script. Please run pnpm build (includes next export)\"",
     "start": "next start",
     "clean": "rimraf build",
-    "format-check": "rome format src",
-    "format": "rome format --write src",
-    "check": "rome check src",
-    "check-fix": "rome check --apply-unsafe src",
+    "format-check": "biome format src",
+    "format": "biome format --write src",
+    "check": "biome check src",
+    "check-fix": "biome check --apply-unsafe src",
     "lint": "pnpm format-check && pnpm check",
     "lint-fix": "pnpm format && pnpm check-fix",
     "all": "pnpm install && pnpm lint && pnpm build"
@@ -33,12 +33,12 @@
     "web-vitals": "^3.4.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.0.0",
     "@swc/jest": "^0.2.29",
     "@types/mdx": "^2.0.7",
     "@types/node": "^20.5.9",
     "@types/react": "^18.2.21",
     "rimraf": "^5.0.1",
-    "rome": "^12.1.3",
     "swc-loader": "^0.2.3",
     "typescript": "^5.2.2"
   }
