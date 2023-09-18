@@ -2,8 +2,11 @@ import { PropsWithChildren } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { Box, Button } from "@mui/material";
 
+// biome-ignore lint/complexity/noBannedTypes: reason
+type WithAuthProps = {};
+
 export default function WithAuth(
-	props: PropsWithChildren<{}>,
+	props: PropsWithChildren<WithAuthProps>,
 ): JSX.Element {
 	const { data: session } = useSession();
 

@@ -13,7 +13,7 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 pwd
-pnpm install && pnpm up && pnpm build
+pnpm install && pnpm up && pnpm build && pnpm lint-fix
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
