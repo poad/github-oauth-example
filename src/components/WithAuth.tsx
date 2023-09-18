@@ -2,11 +2,8 @@ import { PropsWithChildren } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { Box, Button } from "@mui/material";
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
-type WithAuthProps = {};
-
 export default function WithAuth(
-	props: PropsWithChildren<WithAuthProps>,
+	props: PropsWithChildren<{}>,
 ): JSX.Element {
 	const { data: session } = useSession();
 
