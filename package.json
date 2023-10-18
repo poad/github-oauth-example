@@ -27,7 +27,7 @@
     "@mui/styles": "^5.14.14",
     "@next/mdx": "^13.5.5",
     "next": "^13.5.5",
-    "next-auth": "^4.23.2",
+    "next-auth": "^4.24.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "web-vitals": "^3.5.0"
@@ -36,7 +36,7 @@
     "@biomejs/biome": "^1.2.2",
     "@swc/jest": "^0.2.29",
     "@types/mdx": "^2.0.8",
-    "@types/node": "^20.8.6",
+    "@types/node": "^20.8.7",
     "@types/react": "^18.2.28",
     "rimraf": "^5.0.5",
     "swc-loader": "^0.2.3",
