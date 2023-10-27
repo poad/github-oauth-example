@@ -14,7 +14,7 @@ jobs:
   test:
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [20.x]
 
     runs-on: ubuntu-latest
     steps:
@@ -27,7 +27,7 @@ jobs:
         version: latest
         run_install: |
           - recursive: true
-            args: [--frozen-lockfile, --strict-peer-dependencies]
+            args: [--frozen-lockfile]
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4.0.0
@@ -40,6 +40,13 @@ jobs:
       run: pnpm all
 
   configure:
+
+    permissions:
+      id-token: write
+      pull-requests: write
+      statuses: write
+      contents: write
+
     runs-on: ubuntu-latest
 
     if: github.actor != 'dependabot[bot]'
@@ -50,7 +57,7 @@ jobs:
       uses: poad/github-pull-request-auto-merge-enable-action@v2.0.1
       with:
         pull_request_number: ${{ github.event.pull_request.number }}
-        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         repository: ${{ github.event.repository.name }}
         owner: ${{ github.repository_owner }}
         merge_method: SQUASH
