@@ -28,19 +28,18 @@ export default function WithAuth(
 				{props.children}
 			</>
 		);
-	} else {
-		return (
-			<Box>
-				Not signed in <br />
-				<Button
-					sx={{
-						backgroundColor: "#009900",
-					}}
-					onClick={() => signIn("github")}
-				>
-					Sign in
-				</Button>
-			</Box>
-		);
 	}
+	return (
+		<Box>
+			Not signed in <br />
+			<Button
+				sx={{
+					backgroundColor: "#009900",
+				}}
+				onClick={() => signIn("github")}
+			>
+				Sign in
+			</Button>
+		</Box>
+	);
 }
