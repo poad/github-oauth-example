@@ -37,7 +37,7 @@
     "@swc/jest": "^0.2.29",
     "@types/mdx": "^2.0.10",
     "@types/node": "^20.10.4",
-    "@types/react": "^18.2.42",
+    "@types/react": "^18.2.43",
     "rimraf": "^5.0.5",
     "swc-loader": "^0.2.3",
     "typescript": "^5.3.3"
