@@ -36,7 +36,7 @@
     "@biomejs/biome": "^1.5.0",
     "@swc/jest": "^0.2.29",
     "@types/mdx": "^2.0.10",
-    "@types/node": "^20.10.7",
+    "@types/node": "^20.10.8",
     "@types/react": "^18.2.47",
     "rimraf": "^5.0.5",
     "swc-loader": "^0.2.3",
