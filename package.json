@@ -34,12 +34,12 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.5.3",
-    "@swc/jest": "^0.2.34",
+    "@swc/jest": "^0.2.36",
     "@types/mdx": "^2.0.11",
     "@types/node": "^20.11.16",
     "@types/react": "^18.2.53",
     "rimraf": "^5.0.5",
-    "swc-loader": "^0.2.4",
+    "swc-loader": "^0.2.6",
     "typescript": "^5.3.3"
   }
 }
