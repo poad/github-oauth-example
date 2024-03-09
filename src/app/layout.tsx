@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { SessionProvider } from "next-auth/react";
 import theme from "./theme";
