@@ -40,6 +40,6 @@
     "@types/react": "^18.2.74",
     "rimraf": "^5.0.5",
     "swc-loader": "^0.2.6",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   }
 }
