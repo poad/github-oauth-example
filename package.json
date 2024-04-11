@@ -35,7 +35,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.6.4",
     "@swc/jest": "^0.2.36",
-    "@types/mdx": "^2.0.12",
+    "@types/mdx": "^2.0.13",
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.75",
     "rimraf": "^5.0.5",
