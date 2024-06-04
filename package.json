@@ -33,7 +33,7 @@
     "web-vitals": "^4.0.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.7.3",
+    "@biomejs/biome": "^1.8.0",
     "@swc/jest": "^0.2.36",
     "@types/mdx": "^2.0.13",
     "@types/node": "^20.14.1",
