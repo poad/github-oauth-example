@@ -64,8 +64,8 @@ importers:
         specifier: ^2.0.13
         version: 2.0.13
       '@types/node':
-        specifier: ^20.14.4
-        version: 20.14.4
+        specifier: ^20.14.5
+        version: 20.14.5
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -500,8 +500,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@panva/hkdf@1.1.1':
-    resolution: {integrity: sha512-dhPeilub1NuIG0X5Kvhh9lH4iW3ZsHlnzwgwbOlgwQ2wG1IqFzsgHqmKPk3WzsdWAeaxKJxgM0+W433RmN45GA==}
+  '@panva/hkdf@1.2.0':
+    resolution: {integrity: sha512-97ZQvZJ4gJhi24Io6zI+W7B67I82q1I8i3BSzQ4OyZj1z4OW87/ruF26lrMES58inTKLy2KgVIDcx8PU4AaANQ==}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -639,8 +639,8 @@ packages:
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
 
-  '@types/node@20.14.4':
-    resolution: {integrity: sha512-1ChboN+57suCT2t/f8lwtPY/k3qTpuD/qnqQuYoBg6OQOcPyaw7PiZVdGpaZYAvhDDtqrt0oAaM8+oSu1xsUGw==}
+  '@types/node@20.14.5':
+    resolution: {integrity: sha512-aoRR+fJkZT2l0aGOJhuA8frnCSoNX6W7U2mpNq63+BxBIj5BQFt8rHy627kijCmm63ijdSdwvGgpUsU6MBsZZA==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -910,8 +910,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.4.804:
-    resolution: {integrity: sha512-gXMMs2m7aUTdZpORQAvMCyH0JHywSpZxjblSc/C81aDr34jh0hmpplTFcM4AYrYALVmiVT/r63oA3tEG1BPVRw==}
+  electron-to-chromium@1.4.805:
+    resolution: {integrity: sha512-8W4UJwX/w9T0QSzINJckTKG6CYpAUTqsaWcWIsdud3I1FYJcMgW9QqT1/4CBff/pP/TihWh13OmiyY8neto6vw==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -1106,8 +1106,8 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
 
-  jose@4.15.5:
-    resolution: {integrity: sha512-jc7BFxgKPKi94uOvEmzlSWFFe2+vASyXaKUpdQKatWAESU2MWjDfFf0fdfc83CDKcA5QecabZeNLyfhe3yKNkg==}
+  jose@4.15.7:
+    resolution: {integrity: sha512-L7ioP+JAuZe8v+T5+zVI9Tx8LtU8BL7NxkyDFVMv+Qr3JW0jSoYDedLtodaXwfqMpeCyx4WXFNyu9tJt4WvC1A==}
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -2011,7 +2011,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.14.4
+      '@types/node': 20.14.5
       '@types/yargs': 17.0.32
       chalk: 4.1.2
 
@@ -2233,7 +2233,7 @@ snapshots:
   '@next/swc-win32-x64-msvc@14.2.4':
     optional: true
 
-  '@panva/hkdf@1.1.1': {}
+  '@panva/hkdf@1.2.0': {}
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
@@ -2355,7 +2355,7 @@ snapshots:
 
   '@types/ms@0.7.34': {}
 
-  '@types/node@20.14.4':
+  '@types/node@20.14.5':
     dependencies:
       undici-types: 5.26.5
 
@@ -2518,7 +2518,7 @@ snapshots:
   browserslist@4.23.1:
     dependencies:
       caniuse-lite: 1.0.30001636
-      electron-to-chromium: 1.4.804
+      electron-to-chromium: 1.4.805
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.1)
 
@@ -2631,7 +2631,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.4.804: {}
+  electron-to-chromium@1.4.805: {}
 
   emoji-regex@8.0.0: {}
 
@@ -2845,11 +2845,11 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 20.14.4
+      '@types/node': 20.14.5
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jose@4.15.5: {}
+  jose@4.15.7: {}
 
   js-tokens@4.0.0: {}
 
@@ -3260,9 +3260,9 @@ snapshots:
   next-auth@4.24.7(next@14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.24.7
-      '@panva/hkdf': 1.1.1
+      '@panva/hkdf': 1.2.0
       cookie: 0.5.0
-      jose: 4.15.5
+      jose: 4.15.7
       next: 14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       oauth: 0.9.15
       openid-client: 5.6.5
@@ -3311,7 +3311,7 @@ snapshots:
 
   openid-client@5.6.5:
     dependencies:
-      jose: 4.15.5
+      jose: 4.15.7
       lru-cache: 6.0.0
       object-hash: 2.2.0
       oidc-token-hash: 5.0.3
