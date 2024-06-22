@@ -594,8 +594,8 @@ packages:
     peerDependencies:
       '@swc/core': '*'
 
-  '@swc/types@0.1.8':
-    resolution: {integrity: sha512-RNFA3+7OJFNYY78x0FYwi1Ow+iF1eF5WvmfY1nXPOEH4R2p/D4Cr1vzje7dNAI2aLFqpv8Wyz4oKSWqIZArpQA==}
+  '@swc/types@0.1.9':
+    resolution: {integrity: sha512-qKnCno++jzcJ4lM4NTfYifm1EFSCeIfKiAHAfkENZAV5Kl9PjJIyd2yeeVv6c/2CckuLyv2NmRC5pv6pm2WQBg==}
 
   '@types/acorn@4.0.6':
     resolution: {integrity: sha512-veQTnWP+1D/xbxVrPC3zHnCZRjSrKfhbMUlEA43iMZLu7EsnTtkJklIuwrCPbOi8YkvDQAiW05VQQFvvz9oieQ==}
@@ -2279,7 +2279,7 @@ snapshots:
   '@swc/core@1.5.5(@swc/helpers@0.5.5)':
     dependencies:
       '@swc/counter': 0.1.3
-      '@swc/types': 0.1.8
+      '@swc/types': 0.1.9
     optionalDependencies:
       '@swc/core-darwin-arm64': 1.5.5
       '@swc/core-darwin-x64': 1.5.5
@@ -2307,7 +2307,7 @@ snapshots:
       '@swc/counter': 0.1.3
       jsonc-parser: 3.2.1
 
-  '@swc/types@0.1.8':
+  '@swc/types@0.1.9':
     dependencies:
       '@swc/counter': 0.1.3
 
