@@ -85,8 +85,8 @@ packages:
     resolution: {integrity: sha512-BcYH1CVJBO9tvyIZ2jVeXgSIMvGZ2FDRvDdOIVQyuklNKSsx+eppDEBq/g47Ayw+RqNFE+URvOShmf+f/qwAlA==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/generator@7.24.8':
-    resolution: {integrity: sha512-47DG+6F5SzOi0uEvK4wMShmn5yY0mVjVJoWTphdY2B4Rx9wHgjK7Yhtr0ru6nE+sn0v38mzrWOlah0p/YlHHOQ==}
+  '@babel/generator@7.24.9':
+    resolution: {integrity: sha512-G8v3jRg+z8IwY1jHFxvCNhOPYPterE4XljNgdGTYfSTtzzwjIswIzIaSPSLs3R7yFuqnqNeay5rjICfqVr+/6A==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-environment-visitor@7.24.7':
@@ -138,8 +138,8 @@ packages:
     resolution: {integrity: sha512-t0P1xxAPzEDcEPmjprAQq19NWum4K0EQPjMwZQZbHt+GiZqvjCHjj755Weq1YRPVzBI+3zSfvScfpnuIecVFJQ==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/types@7.24.8':
-    resolution: {integrity: sha512-SkSBEHwwJRU52QEVZBmMBnE5Ux2/6WU1grdYyOhpbCNxbmJrDuDCphBzKZSO3taf0zztp+qkWlymE5tVL5l0TA==}
+  '@babel/types@7.24.9':
+    resolution: {integrity: sha512-xm8XrMKz0IlUdocVbYJe0Z9xEgidU7msskG8BbhnTPK/HZ2z/7FP7ykqPgrUH+C+r414mNfNWam1f2vqOjqjYQ==}
     engines: {node: '>=6.9.0'}
 
   '@biomejs/biome@1.8.3':
@@ -1774,36 +1774,36 @@ snapshots:
       '@babel/highlight': 7.24.7
       picocolors: 1.0.1
 
-  '@babel/generator@7.24.8':
+  '@babel/generator@7.24.9':
     dependencies:
-      '@babel/types': 7.24.8
+      '@babel/types': 7.24.9
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
       jsesc: 2.5.2
 
   '@babel/helper-environment-visitor@7.24.7':
     dependencies:
-      '@babel/types': 7.24.8
+      '@babel/types': 7.24.9
 
   '@babel/helper-function-name@7.24.7':
     dependencies:
       '@babel/template': 7.24.7
-      '@babel/types': 7.24.8
+      '@babel/types': 7.24.9
 
   '@babel/helper-hoist-variables@7.24.7':
     dependencies:
-      '@babel/types': 7.24.8
+      '@babel/types': 7.24.9
 
   '@babel/helper-module-imports@7.24.7':
     dependencies:
       '@babel/traverse': 7.24.8
-      '@babel/types': 7.24.8
+      '@babel/types': 7.24.9
     transitivePeerDependencies:
       - supports-color
 
   '@babel/helper-split-export-declaration@7.24.7':
     dependencies:
-      '@babel/types': 7.24.8
+      '@babel/types': 7.24.9
 
   '@babel/helper-string-parser@7.24.8': {}
 
@@ -1818,7 +1818,7 @@ snapshots:
 
   '@babel/parser@7.24.8':
     dependencies:
-      '@babel/types': 7.24.8
+      '@babel/types': 7.24.9
 
   '@babel/runtime@7.24.8':
     dependencies:
@@ -1828,24 +1828,24 @@ snapshots:
     dependencies:
       '@babel/code-frame': 7.24.7
       '@babel/parser': 7.24.8
-      '@babel/types': 7.24.8
+      '@babel/types': 7.24.9
 
   '@babel/traverse@7.24.8':
     dependencies:
       '@babel/code-frame': 7.24.7
-      '@babel/generator': 7.24.8
+      '@babel/generator': 7.24.9
       '@babel/helper-environment-visitor': 7.24.7
       '@babel/helper-function-name': 7.24.7
       '@babel/helper-hoist-variables': 7.24.7
       '@babel/helper-split-export-declaration': 7.24.7
       '@babel/parser': 7.24.8
-      '@babel/types': 7.24.8
+      '@babel/types': 7.24.9
       debug: 4.3.5
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/types@7.24.8':
+  '@babel/types@7.24.9':
     dependencies:
       '@babel/helper-string-parser': 7.24.8
       '@babel/helper-validator-identifier': 7.24.7
