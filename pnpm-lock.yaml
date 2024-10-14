@@ -985,8 +985,8 @@ packages:
   hast-util-to-estree@3.1.0:
     resolution: {integrity: sha512-lfX5g6hqVh9kjS/B9E2gSkvHH4SZNiQFiqWS0x9fENzEl+8W12RqdRxX6d/Cwxi30tPQs3bIO+aolQJNp1bIyw==}
 
-  hast-util-to-jsx-runtime@2.3.0:
-    resolution: {integrity: sha512-H/y0+IWPdsLLS738P8tDnrQ8Z+dj12zQQ6WC11TIM21C8WFVoIxcqWXf2H3hiTVZjF1AWqoimGwrTWecWrnmRQ==}
+  hast-util-to-jsx-runtime@2.3.1:
+    resolution: {integrity: sha512-Rbemi1rzrkysSin0FDHZfsxYPoqLGHFfxFm28aOBHPibT7aqjy7kUgY636se9xbuCWUsFpWAYlmtGHQakiqtEA==}
 
   hast-util-whitespace@3.0.0:
     resolution: {integrity: sha512-88JUN06ipLwsnv+dVn+OIYOvAuvBMy/Qoi6O7mQHxdPXpjy+Cd6xRkWwux7DKO+4sYILtLBRIKgsdpS2gQc7qw==}
@@ -1381,8 +1381,8 @@ packages:
     peerDependencies:
       preact: '>=10'
 
-  preact@10.24.2:
-    resolution: {integrity: sha512-1cSoF0aCC8uaARATfrlz4VCBqE8LwZwRfLgkxJOQwAlQt6ayTmi0D9OF7nXid1POI5SZidFuG9CnlXbDfLqY/Q==}
+  preact@10.24.3:
+    resolution: {integrity: sha512-Z2dPnBnMUfyQfSQ+GBdsGa16hz35YmLmtTLhM169uW944hYL6xzTYkJjC07j+Wosz733pMWx0fgON3JNw1jJQA==}
 
   pretty-format@3.8.0:
     resolution: {integrity: sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew==}
@@ -1982,7 +1982,7 @@ snapshots:
       estree-util-to-js: 2.0.0
       estree-walker: 3.0.3
       hast-util-to-estree: 3.1.0
-      hast-util-to-jsx-runtime: 2.3.0
+      hast-util-to-jsx-runtime: 2.3.1
       markdown-extensions: 2.0.0
       periscopic: 3.1.0
       remark-mdx: 3.0.1
@@ -2667,7 +2667,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hast-util-to-jsx-runtime@2.3.0:
+  hast-util-to-jsx-runtime@2.3.1:
     dependencies:
       '@types/estree': 1.0.6
       '@types/hast': 3.0.4
@@ -3177,8 +3177,8 @@ snapshots:
       next: 14.2.15(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       oauth: 0.9.15
       openid-client: 5.7.0
-      preact: 10.24.2
-      preact-render-to-string: 5.2.6(preact@10.24.2)
+      preact: 10.24.3
+      preact-render-to-string: 5.2.6(preact@10.24.3)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       uuid: 8.3.2
@@ -3276,12 +3276,12 @@ snapshots:
       picocolors: 1.1.0
       source-map-js: 1.2.1
 
-  preact-render-to-string@5.2.6(preact@10.24.2):
+  preact-render-to-string@5.2.6(preact@10.24.3):
     dependencies:
-      preact: 10.24.2
+      preact: 10.24.3
       pretty-format: 3.8.0
 
-  preact@10.24.2: {}
+  preact@10.24.3: {}
 
   pretty-format@3.8.0: {}
 
