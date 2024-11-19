@@ -1965,8 +1965,8 @@ packages:
   micromark-util-sanitize-uri@2.0.1:
     resolution: {integrity: sha512-9N9IomZ/YuGGZZmQec1MbgxtlgougxTodVwDzzEouPKo3qFWvymFHWcnDi2vzV1ff6kas9ucW+o3yzJK9YB1AQ==}
 
-  micromark-util-subtokenize@2.0.2:
-    resolution: {integrity: sha512-xKxhkB62vwHUuuxHe9Xqty3UaAsizV2YKq5OV344u3hFBbf8zIYrhYOWhAQb94MtMPkjTOzzjJ/hid9/dR5vFA==}
+  micromark-util-subtokenize@2.0.3:
+    resolution: {integrity: sha512-VXJJuNxYWSoYL6AJ6OQECCFGhIU2GGHMw8tahogePBrjkG8aCCas3ibkp7RnVOSTClg2is05/R7maAhF1XyQMg==}
 
   micromark-util-symbol@2.0.1:
     resolution: {integrity: sha512-vs5t8Apaud9N28kgCrRUdEed4UJ+wWNvicHLPxCa9ENlYuAY31M0ETy5y1vA33YoNPDFTghEbnh6efaE8h4x0Q==}
@@ -4896,7 +4896,7 @@ snapshots:
       micromark-util-html-tag-name: 2.0.1
       micromark-util-normalize-identifier: 2.0.1
       micromark-util-resolve-all: 2.0.1
-      micromark-util-subtokenize: 2.0.2
+      micromark-util-subtokenize: 2.0.3
       micromark-util-symbol: 2.0.1
       micromark-util-types: 2.0.1
 
@@ -5056,7 +5056,7 @@ snapshots:
       micromark-util-encode: 2.0.1
       micromark-util-symbol: 2.0.1
 
-  micromark-util-subtokenize@2.0.2:
+  micromark-util-subtokenize@2.0.3:
     dependencies:
       devlop: 1.1.0
       micromark-util-chunked: 2.0.1
@@ -5083,7 +5083,7 @@ snapshots:
       micromark-util-normalize-identifier: 2.0.1
       micromark-util-resolve-all: 2.0.1
       micromark-util-sanitize-uri: 2.0.1
-      micromark-util-subtokenize: 2.0.2
+      micromark-util-subtokenize: 2.0.3
       micromark-util-symbol: 2.0.1
       micromark-util-types: 2.0.1
     transitivePeerDependencies:
