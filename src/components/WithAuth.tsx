@@ -1,4 +1,4 @@
-import type { PropsWithChildren } from 'react';
+import type { JSX, PropsWithChildren } from 'react';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import { Box, Button } from '@mui/material';
 
