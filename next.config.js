@@ -5,7 +5,6 @@ const withMDX = mdx({ extension: /\.mdx?$/, });
 const config = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx', 'md'],
   reactStrictMode: true,
-  swcMinify: true,
   compiler: {
     emotion: true,
   },
