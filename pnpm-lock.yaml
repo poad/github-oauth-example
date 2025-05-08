@@ -51,8 +51,8 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       web-vitals:
-        specifier: ^4.2.4
-        version: 4.2.4
+        specifier: ^5.0.0
+        version: 5.0.0
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3.3.1
@@ -83,7 +83,7 @@ importers:
         version: 2.0.13
       '@types/node':
         specifier: ^22.15.3
-        version: 22.15.14
+        version: 22.15.17
       '@types/react':
         specifier: ^19.1.2
         version: 19.1.3
@@ -772,8 +772,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@22.15.14':
-    resolution: {integrity: sha512-BL1eyu/XWsFGTtDWOYULQEs4KR0qdtYfCxYAUYRoB7JP7h9ETYLgQTww6kH8Sj2C0pFGgrpM0XKv6/kbIzYJ1g==}
+  '@types/node@22.15.17':
+    resolution: {integrity: sha512-wIX2aSZL5FE+MR0JlvF87BNVrtFWf6AE6rxSE9X7OwnVvoyCQjpzSRJ+M87se/4QCkCiebQAqrJ0y6fwIyi7nw==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -1347,8 +1347,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.150:
-    resolution: {integrity: sha512-rOOkP2ZUMx1yL4fCxXQKDHQ8ZXwisb2OycOQVKHgvB3ZI4CvehOd4y2tfnnLDieJ3Zs1RL1Dlp3cMkyIn7nnXA==}
+  electron-to-chromium@1.5.151:
+    resolution: {integrity: sha512-Rl6uugut2l9sLojjS4H4SAr3A4IgACMLgpuEMPYCVcKydzfyPrn5absNRju38IhQOf/NwjJY8OGWjlteqYeBCA==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2478,8 +2478,8 @@ packages:
   prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
 
-  property-information@7.0.0:
-    resolution: {integrity: sha512-7D/qOz/+Y4X/rzSB6jKxKUsQnphO046ei8qxG59mtM3RG3DHgTK81HrxrmoDVINJb8NKT5ZsRbwHvQ6B68Iyhg==}
+  property-information@7.1.0:
+    resolution: {integrity: sha512-TwEZ+X+yCJmYfL7TPUOcvBZ4QfoT5YenQiJuX//0th53DE6w0xxLEtfK3iyryQFddXuvkIk51EEgrJQ0WJkOmQ==}
 
   proxy-addr@2.0.7:
     resolution: {integrity: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==}
@@ -2992,8 +2992,8 @@ packages:
     resolution: {integrity: sha512-TnbFSbcOCcDgjZ4piURLCbJ3nJhznVh9kw6F6iokjiFPl8ONxe9A6nMDVXDiNbrSfLILs6vB07F7wLBrwPYzJw==}
     engines: {node: '>=10.13.0'}
 
-  web-vitals@4.2.4:
-    resolution: {integrity: sha512-r4DIlprAGwJ7YM11VZp4R884m0Vmgr6EAKe3P+kO0PPj3Unqyvv59rczf6UiGcb9Z8QxZVcqKNwv/g0WNdWwsw==}
+  web-vitals@5.0.0:
+    resolution: {integrity: sha512-yuayYLYyO4QdqB7YriMtUZxCIsUbcpZLnoPCJXocLvTRcAh/Jz2rgqsHrh9Oz/NHApB/Somd05NMsuhJV3YcLQ==}
 
   webpack-sources@3.2.3:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
@@ -3786,7 +3786,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@22.15.14':
+  '@types/node@22.15.17':
     dependencies:
       undici-types: 6.21.0
 
@@ -4219,7 +4219,7 @@ snapshots:
   browserslist@4.24.5:
     dependencies:
       caniuse-lite: 1.0.30001717
-      electron-to-chromium: 1.5.150
+      electron-to-chromium: 1.5.151
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.5)
 
@@ -4421,7 +4421,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.150: {}
+  electron-to-chromium@1.5.151: {}
 
   emoji-regex@8.0.0: {}
 
@@ -5107,7 +5107,7 @@ snapshots:
       mdast-util-mdx-expression: 2.0.1
       mdast-util-mdx-jsx: 3.2.0
       mdast-util-mdxjs-esm: 2.0.1
-      property-information: 7.0.0
+      property-information: 7.1.0
       space-separated-tokens: 2.0.2
       style-to-js: 1.1.16
       unist-util-position: 5.0.0
@@ -5127,7 +5127,7 @@ snapshots:
       mdast-util-mdx-expression: 2.0.1
       mdast-util-mdx-jsx: 3.2.0
       mdast-util-mdxjs-esm: 2.0.1
-      property-information: 7.0.0
+      property-information: 7.1.0
       space-separated-tokens: 2.0.2
       style-to-js: 1.1.16
       unist-util-position: 5.0.0
@@ -5338,7 +5338,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.15.14
+      '@types/node': 22.15.17
       merge-stream: 2.0.0
       supports-color: 8.1.1
     optional: true
@@ -5999,7 +5999,7 @@ snapshots:
       object-assign: 4.1.1
       react-is: 16.13.1
 
-  property-information@7.0.0: {}
+  property-information@7.1.0: {}
 
   proxy-addr@2.0.7:
     dependencies:
@@ -6707,7 +6707,7 @@ snapshots:
       graceful-fs: 4.2.11
     optional: true
 
-  web-vitals@4.2.4: {}
+  web-vitals@5.0.0: {}
 
   webpack-sources@3.2.3:
     optional: true
