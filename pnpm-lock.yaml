@@ -22,7 +22,7 @@ importers:
         version: 11.14.0(@emotion/react@11.14.0(@types/react@19.1.6)(react@19.1.0))(@types/react@19.1.6)(react@19.1.0)
       '@mdx-js/loader':
         specifier: ^3.1.0
-        version: 3.1.0(acorn@8.14.1)(webpack@5.91.0)
+        version: 3.1.0(acorn@8.15.0)(webpack@5.91.0)
       '@mdx-js/react':
         specifier: ^3.1.0
         version: 3.1.0(@types/react@19.1.6)(react@19.1.0)
@@ -30,16 +30,16 @@ importers:
         specifier: ^7.1.1
         version: 7.1.1(@mui/material@7.1.1(@emotion/react@11.14.0(@types/react@19.1.6)(react@19.1.0))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.1.6)(react@19.1.0))(@types/react@19.1.6)(react@19.1.0))(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@types/react@19.1.6)(react@19.1.0)
       '@mui/material':
-        specifier: ^7.0.2
+        specifier: ^7.1.1
         version: 7.1.1(@emotion/react@11.14.0(@types/react@19.1.6)(react@19.1.0))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.1.6)(react@19.1.0))(@types/react@19.1.6)(react@19.1.0))(@types/react@19.1.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@mui/system':
-        specifier: ^7.0.2
+        specifier: ^7.1.1
         version: 7.1.1(@emotion/react@11.14.0(@types/react@19.1.6)(react@19.1.0))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.1.6)(react@19.1.0))(@types/react@19.1.6)(react@19.1.0))(@types/react@19.1.6)(react@19.1.0)
       '@next/mdx':
         specifier: ^15.3.3
-        version: 15.3.3(@mdx-js/loader@3.1.0(acorn@8.14.1)(webpack@5.91.0))(@mdx-js/react@3.1.0(@types/react@19.1.6)(react@19.1.0))
+        version: 15.3.3(@mdx-js/loader@3.1.0(acorn@8.15.0)(webpack@5.91.0))(@mdx-js/react@3.1.0(@types/react@19.1.6)(react@19.1.0))
       next:
-        specifier: ^15.3.1
+        specifier: ^15.3.3
         version: 15.3.3(@babel/core@7.25.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       next-auth:
         specifier: ^4.24.11
@@ -58,25 +58,25 @@ importers:
         specifier: ^3.3.1
         version: 3.3.1
       '@eslint/js':
-        specifier: ^9.27.0
+        specifier: ^9.28.0
         version: 9.28.0
       '@next/eslint-plugin-next':
-        specifier: ^15.3.1
+        specifier: ^15.3.3
         version: 15.3.3
       '@stylistic/eslint-plugin':
         specifier: ^4.4.1
         version: 4.4.1(eslint@9.28.0)(typescript@5.8.3)
       '@stylistic/eslint-plugin-js':
-        specifier: ^4.2.0
+        specifier: ^4.4.1
         version: 4.4.1(eslint@9.28.0)
       '@stylistic/eslint-plugin-jsx':
-        specifier: ^4.2.0
+        specifier: ^4.4.1
         version: 4.4.1(eslint@9.28.0)
       '@stylistic/eslint-plugin-plus':
-        specifier: ^4.2.0
+        specifier: ^4.4.1
         version: 4.4.1(eslint@9.28.0)
       '@stylistic/eslint-plugin-ts':
-        specifier: ^4.2.0
+        specifier: ^4.4.1
         version: 4.4.1(eslint@9.28.0)(typescript@5.8.3)
       '@types/mdx':
         specifier: ^2.0.13
@@ -88,19 +88,19 @@ importers:
         specifier: ^19.1.6
         version: 19.1.6
       '@types/react-dom':
-        specifier: ^19.1.4
+        specifier: ^19.1.6
         version: 19.1.6(@types/react@19.1.6)
       eslint:
-        specifier: ^9.25.1
+        specifier: ^9.28.0
         version: 9.28.0
       eslint-config-import:
         specifier: ^0.13.0
         version: 0.13.0(eslint-plugin-import@2.31.0)
       eslint-config-next:
-        specifier: ^15.3.1
+        specifier: ^15.3.3
         version: 15.3.3(eslint@9.28.0)(typescript@5.8.3)
       eslint-import-resolver-typescript:
-        specifier: ^4.3.4
+        specifier: ^4.4.3
         version: 4.4.3(eslint-plugin-import@2.31.0)(eslint@9.28.0)
       eslint-plugin-flowtype:
         specifier: ^8.0.3
@@ -118,8 +118,8 @@ importers:
         specifier: ^5.2.0
         version: 5.2.0(eslint@9.28.0)
       pnpm:
-        specifier: ^10.10.0
-        version: 10.11.1
+        specifier: ^10.12.1
+        version: 10.12.1
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -354,8 +354,8 @@ packages:
     resolution: {integrity: sha512-JBxkERygn7Bv/GbN5Rv8Ul6LVknS+5Bp6RgDC/O8gEBU/yeH5Ui5C/OlWrTb6qct7LjjfT6Re2NxB0ln0yYybA==}
     engines: {node: '>=18.18'}
 
-  '@humanwhocodes/retry@0.4.2':
-    resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
+  '@humanwhocodes/retry@0.4.3':
+    resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
   '@img/sharp-darwin-arm64@0.34.2':
@@ -607,8 +607,8 @@ packages:
       '@types/react':
         optional: true
 
-  '@napi-rs/wasm-runtime@0.2.10':
-    resolution: {integrity: sha512-bCsCyeZEwVErsGmyPNSzwfwFn4OdxBj0mmv6hOFucB/k81Ojdu68RbZdxYsRQUPc9l6SU5F/cG+bXgWs3oUgsQ==}
+  '@napi-rs/wasm-runtime@0.2.11':
+    resolution: {integrity: sha512-9DPkXtvHydrcOsopiYpUgPHpmj0HWZKMUnL2dZqpvC42lsratuBG06V5ipyno0fUek5VlFsNQ+AcFATSrJXgMA==}
 
   '@next/env@15.3.3':
     resolution: {integrity: sha512-OdiMrzCl2Xi0VTjiQQUK0Xh7bJHnOuET2s+3V+Y40WJBAXrJeGA3f+I8MZJ/YQ3mVGi5XGR1L66oFlgqXhQ4Vw==}
@@ -1011,8 +1011,8 @@ packages:
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
 
-  acorn@8.14.1:
-    resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
+  acorn@8.15.0:
+    resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -1269,15 +1269,6 @@ packages:
 
   debug@3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
-  debug@4.4.0:
-    resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
-    engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
     peerDependenciesMeta:
@@ -2354,8 +2345,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@10.11.1:
-    resolution: {integrity: sha512-5Rm592OYadyNXDxd/vc7PwkQlLCgBtcxc1PHKxJOgOGv1ClzLihwWta/oe6HnB/ORsEozOvTGSEB9D3WfGZ5Eg==}
+  pnpm@10.12.1:
+    resolution: {integrity: sha512-8N2oWA8O6UgcXHmh2Se5Fk8sR46QmSrSaLuyRlpzaYQ5HWMz0sMnkTV4soBK8zR0ylVLopwEqLEwYKcXZ1rjrA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -3191,7 +3182,7 @@ snapshots:
   '@eslint/eslintrc@3.3.1':
     dependencies:
       ajv: 6.12.6
-      debug: 4.4.0
+      debug: 4.4.1
       espree: 10.3.0
       globals: 14.0.0
       ignore: 5.3.2
@@ -3222,7 +3213,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.3.1': {}
 
-  '@humanwhocodes/retry@0.4.2': {}
+  '@humanwhocodes/retry@0.4.3': {}
 
   '@img/sharp-darwin-arm64@0.34.2':
     optionalDependencies:
@@ -3337,9 +3328,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mdx-js/loader@3.1.0(acorn@8.14.1)(webpack@5.91.0)':
+  '@mdx-js/loader@3.1.0(acorn@8.15.0)(webpack@5.91.0)':
     dependencies:
-      '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
+      '@mdx-js/mdx': 3.1.0(acorn@8.15.0)
       source-map: 0.7.4
     optionalDependencies:
       webpack: 5.91.0
@@ -3347,7 +3338,7 @@ snapshots:
       - acorn
       - supports-color
 
-  '@mdx-js/mdx@3.1.0(acorn@8.14.1)':
+  '@mdx-js/mdx@3.1.0(acorn@8.15.0)':
     dependencies:
       '@types/estree': 1.0.8
       '@types/estree-jsx': 1.0.5
@@ -3361,7 +3352,7 @@ snapshots:
       hast-util-to-jsx-runtime: 2.3.6
       markdown-extensions: 2.0.0
       recma-build-jsx: 1.0.0
-      recma-jsx: 1.0.0(acorn@8.14.1)
+      recma-jsx: 1.0.0(acorn@8.15.0)
       recma-stringify: 1.0.0
       rehype-recma: 1.0.0
       remark-mdx: 3.1.0
@@ -3470,7 +3461,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.1.6
 
-  '@napi-rs/wasm-runtime@0.2.10':
+  '@napi-rs/wasm-runtime@0.2.11':
     dependencies:
       '@emnapi/core': 1.4.3
       '@emnapi/runtime': 1.4.3
@@ -3483,11 +3474,11 @@ snapshots:
     dependencies:
       fast-glob: 3.3.1
 
-  '@next/mdx@15.3.3(@mdx-js/loader@3.1.0(acorn@8.14.1)(webpack@5.91.0))(@mdx-js/react@3.1.0(@types/react@19.1.6)(react@19.1.0))':
+  '@next/mdx@15.3.3(@mdx-js/loader@3.1.0(acorn@8.15.0)(webpack@5.91.0))(@mdx-js/react@3.1.0(@types/react@19.1.6)(react@19.1.0))':
     dependencies:
       source-map: 0.7.4
     optionalDependencies:
-      '@mdx-js/loader': 3.1.0(acorn@8.14.1)(webpack@5.91.0)
+      '@mdx-js/loader': 3.1.0(acorn@8.15.0)(webpack@5.91.0)
       '@mdx-js/react': 3.1.0(@types/react@19.1.6)(react@19.1.0)
 
   '@next/swc-darwin-arm64@15.3.3':
@@ -3786,7 +3777,7 @@ snapshots:
 
   '@unrs/resolver-binding-wasm32-wasi@1.7.11':
     dependencies:
-      '@napi-rs/wasm-runtime': 0.2.10
+      '@napi-rs/wasm-runtime': 0.2.11
     optional: true
 
   '@unrs/resolver-binding-win32-arm64-msvc@1.7.11':
@@ -3895,16 +3886,16 @@ snapshots:
   '@xtuc/long@4.2.2':
     optional: true
 
-  acorn-import-assertions@1.9.0(acorn@8.14.1):
+  acorn-import-assertions@1.9.0(acorn@8.15.0):
     dependencies:
-      acorn: 8.14.1
+      acorn: 8.15.0
     optional: true
 
-  acorn-jsx@5.3.2(acorn@8.14.1):
+  acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
-      acorn: 8.14.1
+      acorn: 8.15.0
 
-  acorn@8.14.1: {}
+  acorn@8.15.0: {}
 
   ajv-formats@2.1.1(ajv@8.17.1):
     optionalDependencies:
@@ -4189,10 +4180,6 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  debug@4.4.0:
-    dependencies:
-      ms: 2.1.3
-
   debug@4.4.1:
     dependencies:
       ms: 2.1.3
@@ -4375,7 +4362,7 @@ snapshots:
   esast-util-from-js@2.0.1:
     dependencies:
       '@types/estree-jsx': 1.0.5
-      acorn: 8.14.1
+      acorn: 8.15.0
       esast-util-from-estree: 2.0.0
       vfile-message: 4.0.2
 
@@ -4612,7 +4599,7 @@ snapshots:
       '@eslint/plugin-kit': 0.3.1
       '@humanfs/node': 0.16.6
       '@humanwhocodes/module-importer': 1.0.1
-      '@humanwhocodes/retry': 0.4.2
+      '@humanwhocodes/retry': 0.4.3
       '@types/estree': 1.0.8
       '@types/json-schema': 7.0.15
       ajv: 6.12.6
@@ -4642,8 +4629,8 @@ snapshots:
 
   espree@10.3.0:
     dependencies:
-      acorn: 8.14.1
-      acorn-jsx: 5.3.2(acorn@8.14.1)
+      acorn: 8.15.0
+      acorn-jsx: 5.3.2(acorn@8.15.0)
       eslint-visitor-keys: 4.2.0
 
   esquery@1.6.0:
@@ -5348,8 +5335,8 @@ snapshots:
 
   micromark-extension-mdxjs@3.0.0:
     dependencies:
-      acorn: 8.14.1
-      acorn-jsx: 5.3.2(acorn@8.14.1)
+      acorn: 8.15.0
+      acorn-jsx: 5.3.2(acorn@8.15.0)
       micromark-extension-mdx-expression: 3.0.1
       micromark-extension-mdx-jsx: 3.0.2
       micromark-extension-mdx-md: 2.0.0
@@ -5702,7 +5689,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@10.11.1: {}
+  pnpm@10.12.1: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -5785,9 +5772,9 @@ snapshots:
       estree-util-build-jsx: 3.0.1
       vfile: 6.0.3
 
-  recma-jsx@1.0.0(acorn@8.14.1):
+  recma-jsx@1.0.0(acorn@8.15.0):
     dependencies:
-      acorn-jsx: 5.3.2(acorn@8.14.1)
+      acorn-jsx: 5.3.2(acorn@8.15.0)
       estree-util-to-js: 2.0.0
       recma-parse: 1.0.0
       recma-stringify: 1.0.0
@@ -6192,7 +6179,7 @@ snapshots:
   terser@5.41.0:
     dependencies:
       '@jridgewell/source-map': 0.3.6
-      acorn: 8.14.1
+      acorn: 8.15.0
       commander: 2.20.3
       source-map-support: 0.5.21
     optional: true
@@ -6389,8 +6376,8 @@ snapshots:
       '@webassemblyjs/ast': 1.14.1
       '@webassemblyjs/wasm-edit': 1.14.1
       '@webassemblyjs/wasm-parser': 1.14.1
-      acorn: 8.14.1
-      acorn-import-assertions: 1.9.0(acorn@8.14.1)
+      acorn: 8.15.0
+      acorn-import-assertions: 1.9.0(acorn@8.15.0)
       browserslist: 4.25.0
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.18.1
