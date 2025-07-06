@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - sharp
+  - unrs-resolver
+
+enablePrePostScripts: true
+autoInstallPeers: true
