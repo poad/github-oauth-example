@@ -1,6 +1,7 @@
 {
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -21,8 +22,8 @@
     "@mui/icons-material": "^7.3.1",
     "@mui/material": "^7.3.1",
     "@mui/system": "^7.3.1",
-    "@next/mdx": "^15.4.7",
-    "next": "^15.4.7",
+    "@next/mdx": "^15.5.0",
+    "next": "^15.5.0",
     "next-auth": "^4.24.11",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
@@ -31,7 +32,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.33.0",
-    "@next/eslint-plugin-next": "^15.4.7",
+    "@next/eslint-plugin-next": "^15.5.0",
     "@stylistic/eslint-plugin": "^5.2.3",
     "@stylistic/eslint-plugin-js": "^4.4.1",
     "@stylistic/eslint-plugin-jsx": "^4.4.1",
@@ -43,17 +44,17 @@
     "@types/react-dom": "^19.1.7",
     "eslint": "^9.33.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^15.4.7",
+    "eslint-config-next": "^15.5.0",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "pnpm": "^10.14.0",
+    "pnpm": "^10.15.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.40.0"
   },
-  "packageManager": "pnpm@10.14.0"
+  "packageManager": "pnpm@10.15.0"
 }
