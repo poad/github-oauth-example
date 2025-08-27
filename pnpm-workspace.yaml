@@ -1,6 +1,10 @@
+autoInstallPeers: true
+
+enablePrePostScripts: true
+
 onlyBuiltDependencies:
   - sharp
   - unrs-resolver
 
-enablePrePostScripts: true
-autoInstallPeers: true
+overrides:
+  webpack@>=5.0.0-alpha.0 <5.94.0: '>=5.94.0'
