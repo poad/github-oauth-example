@@ -33,8 +33,6 @@ export default tseslint.config(
       'jsx-a11y': jsxA11yPlugin,
       '@next/next': nextPlugin,
       '@stylistic': stylistic,
-      '@stylistic/ts': stylistic,
-      '@stylistic/jsx': stylistic,
     },
     extends: [
       ...compat.config(reactHooksPlugin.configs.recommended),
@@ -60,7 +58,7 @@ export default tseslint.config(
       '@next/next/no-duplicate-head': 'off',
       '@next/next/no-img-element': 'error',
       '@next/next/no-page-custom-font': 'off',
-      // '@stylistic/indent': ['error', 2],
+      '@stylistic/indent': ['error', 2],
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
       '@stylistic/arrow-parens': ['error', 'always'],
       '@stylistic/semi': ['error', 'always'],
