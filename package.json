@@ -19,9 +19,9 @@
     "@emotion/styled": "^11.14.1",
     "@mdx-js/loader": "^3.1.1",
     "@mdx-js/react": "^3.1.1",
-    "@mui/icons-material": "^7.3.1",
-    "@mui/material": "^7.3.1",
-    "@mui/system": "^7.3.1",
+    "@mui/icons-material": "^7.3.2",
+    "@mui/material": "^7.3.2",
+    "@mui/system": "^7.3.2",
     "@next/mdx": "^15.5.2",
     "next": "^15.5.2",
     "next-auth": "^4.24.11",
@@ -50,7 +50,7 @@
     "pnpm": "^10.15.1",
     "rimraf": "^6.0.1",
     "typescript": "^5.9.2",
-    "typescript-eslint": "^8.41.0"
+    "typescript-eslint": "^8.42.0"
   },
   "packageManager": "pnpm@10.15.1"
 }
