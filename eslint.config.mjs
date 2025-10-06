@@ -1,8 +1,8 @@
 // @ts-check
 
+import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
-import nextPlugin from '@next/eslint-plugin-next';
-import reactHooksPlugin from 'eslint-plugin-react-hooks';
+import reactHooks from 'eslint-plugin-react-hooks';
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
 import stylistic from '@stylistic/eslint-plugin';
 
@@ -11,7 +11,7 @@ import { FlatCompat } from '@eslint/eslintrc';
 
 const compat = new FlatCompat();
 
-export default tseslint.config(
+export default defineConfig(
   {
     ignores: [
       '**/*.d.ts',
@@ -27,15 +27,23 @@ export default tseslint.config(
   eslint.configs.recommended,
   ...tseslint.configs.strict,
   ...tseslint.configs.stylistic,
+  // ...compat.config({
+  //   extends: ['next'],
+  //   settings: {
+  //     next: {
+  //       rootDir: '.',
+  //     },
+  //   },
+  // }),
   {
     files: ['src/**/*.{jsx,tsx}'],
     plugins: {
       'jsx-a11y': jsxA11yPlugin,
-      '@next/next': nextPlugin,
       '@stylistic': stylistic,
+      'react-hooks': reactHooks,
     },
     extends: [
-      ...compat.config(reactHooksPlugin.configs.recommended),
+      'react-hooks/recommended',
       ...compat.config(jsxA11yPlugin.configs.recommended),
     ],
     settings: {
@@ -51,13 +59,7 @@ export default tseslint.config(
         typescript: {},
       },
     },
-    // @ts-expect-error ignore type errors
     rules: {
-      ...nextPlugin.configs.recommended.rules,
-      ...nextPlugin.configs['core-web-vitals'].rules,
-      '@next/next/no-duplicate-head': 'off',
-      '@next/next/no-img-element': 'error',
-      '@next/next/no-page-custom-font': 'off',
       '@stylistic/indent': ['error', 2],
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
       '@stylistic/arrow-parens': ['error', 'always'],
