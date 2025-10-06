@@ -12,18 +12,14 @@ on:
 
 jobs:
   test:
-    strategy:
-      matrix:
-        node-version: [22.x]
-
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v5
 
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js
       uses: actions/setup-node@v5
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 'lts/*'
         check-latest: true
         package-manager-cache: false
 
@@ -34,29 +30,26 @@ jobs:
           - recursive: true
             args: [--frozen-lockfile]
 
-
     - name: Build
       run: pnpm all
 
   configure:
 
     permissions:
-      id-token: write
       pull-requests: write
-      statuses: write
       contents: write
 
     runs-on: ubuntu-latest
 
-    if: github.actor != 'dependabot[bot]'
+    # リポジトリオーナーの Pull Request はドラフト以外は自動マージを有効にする
+    if: ${{ github.event.pull_request.draft == false && (github.actor != 'dependabot[bot]' || github.repository_owner == github.actor) }}
 
     steps:
-    - name: Pull request auto merge enabler
-      if: github.event_name == 'pull_request'
-      uses: poad/github-pull-request-auto-merge-enable-action@v3
-      with:
-        pull_request_number: ${{ github.event.pull_request.number }}
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        repository: ${{ github.event.repository.name }}
-        owner: ${{ github.repository_owner }}
-        merge_method: SQUASH
+      - name: Enable auto-merge for Pull Request
+        run: |
+          gh pr review --approve "$PR_URL"
+          gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
