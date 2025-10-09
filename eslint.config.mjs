@@ -35,15 +35,14 @@ export default defineConfig(
   //     },
   //   },
   // }),
+  reactHooks.configs.flat.recommended,
   {
     files: ['src/**/*.{jsx,tsx}'],
     plugins: {
       'jsx-a11y': jsxA11yPlugin,
       '@stylistic': stylistic,
-      'react-hooks': reactHooks,
     },
     extends: [
-      'react-hooks/recommended',
       ...compat.config(jsxA11yPlugin.configs.recommended),
     ],
     settings: {
