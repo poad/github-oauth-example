@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
@@ -61,6 +61,7 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/pages/index.mdx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
   ]
 }
