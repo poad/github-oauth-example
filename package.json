@@ -35,9 +35,9 @@
     "@next/eslint-plugin-next": "16.0.1",
     "@stylistic/eslint-plugin": "^5.5.0",
     "@types/mdx": "^2.0.13",
-    "@types/node": "^24.10.0",
-    "@types/react": "19.2.2",
-    "@types/react-dom": "19.2.2",
+    "@types/node": "^24.10.1",
+    "@types/react": "19.2.3",
+    "@types/react-dom": "19.2.3",
     "eslint": "^9.39.1",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "16.0.1",
@@ -47,7 +47,7 @@
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
-    "pnpm": "^10.21.0",
+    "pnpm": "^10.22.0",
     "rimraf": "^6.1.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.4"
@@ -55,8 +55,8 @@
   "packageManager": "pnpm@10.20.0",
   "pnpm": {
     "overrides": {
-      "@types/react": "19.2.2",
-      "@types/react-dom": "19.2.2"
+      "@types/react": "19.2.3",
+      "@types/react-dom": "19.2.3"
     }
   }
 }
