@@ -1,8 +1,7 @@
-// @ts-check
-
 import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
 import reactHooks from 'eslint-plugin-react-hooks';
+// @ts-expect-error ignore type error
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
 import stylistic from '@stylistic/eslint-plugin';
 
