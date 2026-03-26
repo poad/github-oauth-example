@@ -27,18 +27,18 @@
     "next-auth": "^4.24.13",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "web-vitals": "^5.1.0"
+    "web-vitals": "^5.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.5",
-    "@eslint/js": "^10.0.1",
+    "@eslint/js": "^9.39.4",
     "@next/eslint-plugin-next": "^16.2.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/mdx": "^2.0.13",
-    "@types/node": "^25.5.0",
+    "@types/node": "^24.12.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "eslint": "^10.1.0",
+    "eslint": "^9.39.4",
     "eslint-config-next": "16.2.1",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-flowtype": "^8.0.3",
@@ -52,5 +52,5 @@
     "typescript": "^6.0.2",
     "typescript-eslint": "^8.57.2"
   },
-  "packageManager": "pnpm@10.32.1"
+  "packageManager": "pnpm@10.33.0"
 }
