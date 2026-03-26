@@ -8,9 +8,6 @@ const config = {
   compiler: {
     emotion: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
 };
 
 export default withMDX(config);

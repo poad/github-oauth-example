@@ -1,5 +1,5 @@
-import { createTheme } from "@mui/material";
-import { green } from "@mui/material/colors";
+import { createTheme } from '@mui/material';
+import { green } from '@mui/material/colors';
 
 // A theme with custom primary and secondary color.
 // It's optional.
@@ -7,8 +7,8 @@ import { green } from "@mui/material/colors";
 const options = {
 	palette: {
 		primary: {
-			main: "#2d2d2d",
-			text: "#fff",
+			main: '#2d2d2d',
+			text: '#fff',
 		},
 		secondary: {
 			light: green[300],
