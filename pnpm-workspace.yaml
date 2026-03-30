@@ -5,3 +5,11 @@ enablePrePostScripts: true
 onlyBuiltDependencies:
   - sharp
   - unrs-resolver
+
+trustPolicy: no-downgrade
+
+overrides:
+  eslint: ^9
+  eslint-import-resolver-typescript: '>=4'
+  jose: '>=6'
+  semver: '>=7'
