@@ -28,7 +28,7 @@ jobs:
       with:
         run_install: |
           - recursive: true
-            args: [--frozen-lockfile]
+            args: [--no-frozen-lockfile]
 
     - name: Build
       run: pnpm all

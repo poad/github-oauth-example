@@ -5,3 +5,6 @@ enablePrePostScripts: true
 onlyBuiltDependencies:
   - sharp
   - unrs-resolver
+
+overrides:
+  eslint: ^9
