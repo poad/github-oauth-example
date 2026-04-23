@@ -8,3 +8,4 @@ onlyBuiltDependencies:
 
 overrides:
   eslint: ^9
+  uuid@<14.0.0: '>=14.0.0'
