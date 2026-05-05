@@ -54,7 +54,7 @@ export default defineConfig(
     },
     settings: {
       react: {
-        version: 'detect',
+        version: '19.2',
       },
       formComponents: ['Form'],
       linkComponents: [

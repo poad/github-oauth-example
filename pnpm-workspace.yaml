@@ -1,16 +1,21 @@
+packages:
+  - .
+
 allowBuilds:
-  sharp: false
+  esbuild: false
   unrs-resolver: false
 
-autoInstallPeers: false
-
-enablePrePostScripts: true
-
-onlyBuiltDependencies:
-  - sharp
-  - unrs-resolver
+minimumReleaseAge: 10080 # 7 days in minutes
+minimumReleaseAgeExclude:
+  - uuid@14.0.0
+  - postcss@8.5.10
 
 overrides:
-  eslint: ^9
-  postcss@<8.5.10: '>=8.5.10'
-  uuid@<14.0.0: '>=14.0.0'
+  chokidar: '>=5'
+  eslint-import-resolver-typescript: '^4.4.4'
+  jose: '>=6'
+  postcss@<8.5.10: ^8.5.10
+  semver: '>=7'
+  uuid@<14.0.0: ^14.0.0
+
+trustPolicy: no-downgrade
