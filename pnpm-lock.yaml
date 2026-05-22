@@ -82,8 +82,8 @@ importers:
         specifier: ^2.0.13
         version: 2.0.13
       '@types/node':
-        specifier: ^25.7.0
-        version: 25.7.0
+        specifier: ^25.8.0
+        version: 25.8.0
       '@types/react':
         specifier: ^19.2.14
         version: 19.2.14
@@ -743,8 +743,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@25.7.0':
-    resolution: {integrity: sha512-z+pdZyxE+RTQE9AcboAZCb4otwcrvgHD+GlBpPgn0emDVt0ohrTMhAwlr2Wd9nZ+nihhYFxO2pThz3C5qSu2Eg==}
+  '@types/node@25.8.0':
+    resolution: {integrity: sha512-TCFSk8IZh+iLX1xtksoBVtdmgL+1IX0fC9BeU4QqFSuNdN/K+HUlhqOzEmSYYpZUVsLYcPqc9KX+60iDuninSQ==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -1194,8 +1194,8 @@ packages:
   duplexer2@0.1.4:
     resolution: {integrity: sha512-asLFVfWWtJ90ZyOUHMqk7/S2w2guQKxUI2itj3d92ADHhxUSbCMGi1f1cBcJ7xM1To+pE/Khbwo1yuNbMEPKeA==}
 
-  electron-to-chromium@1.5.355:
-    resolution: {integrity: sha512-LUPZhKzZPYSPme1jEYohpkA+ybYCJztr1quAdBd7E7h3+VOBVcKkwwtBJu41nrjawrRzfb8mtMfzWozoaK0ZIQ==}
+  electron-to-chromium@1.5.356:
+    resolution: {integrity: sha512-9NgFd7m5t5MCJ5rUSjJITUXAH9mEGlrlofnMf4YEr+pz6JlP7cWmTAH+JFmbPnaSW8koVTkuW7pacORWAnA5Yw==}
 
   emoji-regex@9.2.2:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
@@ -2476,8 +2476,8 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  undici-types@7.21.0:
-    resolution: {integrity: sha512-w9IMgQrz4O0YN1LtB7K5P63vhlIOvC7opSmouCJ+ZywlPAlO9gIkJ+otk6LvGpAs2wg4econaCz3TvQ9xPoyuQ==}
+  undici-types@7.24.6:
+    resolution: {integrity: sha512-WRNW+sJgj5OBN4/0JpHFqtqzhpbnV0GuB+OozA9gCL7a993SmU+1JBZCzLNxYsbMfIeDL+lTsphD5jN5N+n0zg==}
 
   unified@11.0.5:
     resolution: {integrity: sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==}
@@ -3218,9 +3218,9 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@25.7.0':
+  '@types/node@25.8.0':
     dependencies:
-      undici-types: 7.21.0
+      undici-types: 7.24.6
 
   '@types/parse-json@4.0.2': {}
 
@@ -3523,7 +3523,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.29
       caniuse-lite: 1.0.30001792
-      electron-to-chromium: 1.5.355
+      electron-to-chromium: 1.5.356
       node-releases: 2.0.44
       update-browserslist-db: 1.2.3(browserslist@4.28.2)
 
@@ -3668,7 +3668,7 @@ snapshots:
     dependencies:
       readable-stream: 2.3.8
 
-  electron-to-chromium@1.5.355: {}
+  electron-to-chromium@1.5.356: {}
 
   emoji-regex@9.2.2: {}
 
@@ -5482,7 +5482,7 @@ snapshots:
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
 
-  undici-types@7.21.0: {}
+  undici-types@7.24.6: {}
 
   unified@11.0.5:
     dependencies:
