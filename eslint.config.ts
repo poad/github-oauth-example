@@ -1,4 +1,4 @@
-import { defineConfig } from 'eslint/config';
+import { defineConfig, includeIgnoreFile } from 'eslint/config';
 import eslint from '@eslint/js';
 import nextVitals from 'eslint-config-next/core-web-vitals';
 import { configs, parser } from 'typescript-eslint';
@@ -6,7 +6,6 @@ import stylistic from '@stylistic/eslint-plugin';
 // @ts-expect-error ignore type errors
 import pluginPromise from 'eslint-plugin-promise';
 
-import { includeIgnoreFile } from '@eslint/compat';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 

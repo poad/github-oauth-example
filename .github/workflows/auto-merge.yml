@@ -1,8 +1,7 @@
 name: auto-merge
 
 on:
-  pull_request:
-
+  pull_request: null
 permissions:
   contents: write
   pull-requests: write
@@ -13,12 +12,10 @@ jobs:
     # リポジトリオーナーの Pull Request はドラフト以外は自動マージを有効にする
     if: ${{ github.event.pull_request.draft == false && (github.actor == 'dependabot[bot]' || github.repository_owner == github.actor) }}
     steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-
-      - name: Enable auto-merge for Pull Request
-        run: |
-          gh pr review --approve "$PR_URL"
-          gh pr merge --auto --squash "$PR_URL"
-        env:
-          PR_URL: ${{github.event.pull_request.html_url}}
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - name: Enable auto-merge for Pull Request
+      run: |
+        gh pr review --approve "$PR_URL"
+        gh pr merge --auto --squash "$PR_URL"
+      env:
+        PR_URL: ${{github.event.pull_request.html_url}}
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
