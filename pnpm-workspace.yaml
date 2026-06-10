@@ -8,16 +8,12 @@ allowBuilds:
 
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
-  - uuid@14.0.0
-  - postcss@8.5.10
-  - next@16.2.6
-  - '@next/*'
+  - pnpm@11.5.3
 
 overrides:
   chokidar: '>=5'
   eslint-import-resolver-typescript: '^4.4.4'
   jose: '>=6'
-  next@>=16.0.0 <16.2.6: ^16.2.6
   postcss@<8.5.10: ^8.5.10
   semver: '>=7'
   uuid@<14.0.0: ^14.0.0
