@@ -8,7 +8,7 @@ allowBuilds:
 
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
-  - pnpm@12.15.0
+  - pnpm@12.17.0
 
   - next@16.4.3
   - eslint-config-next@16.4.3
@@ -23,10 +23,16 @@ minimumReleaseAgeExclude:
   - '@next/swc-win32-arm64-msvc@16.4.3'
   - '@next/swc-win32-x64-msvc@16.4.3'
   - '@next/mdx@16.4.3'
+  - minimatch@11.0.1
+  - glob@14.0.2
+  - '@isaacs/nonrecursive-glob-match@1.0.1'
+  - path-scurry@3.0.0
 
 overrides:
   chokidar: '>=5'
+  glob@>=9.0.0 <=14.0.1: ^14.0.2
   jose: '>=6'
+  minimatch@<11.0.1: ^11.0.1
   semver: '>=7'
   uuid@<14.0.0: ^14.0.0
 
