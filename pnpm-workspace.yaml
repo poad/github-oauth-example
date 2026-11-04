@@ -10,19 +10,19 @@ minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
   - pnpm@12.17.0
 
-  - next@16.4.3
-  - eslint-config-next@16.4.3
-  - '@next/eslint-plugin-next@16.4.3'
-  - '@next/env@16.4.3'
-  - '@next/swc-darwin-arm64@16.4.3'
-  - '@next/swc-darwin-x64@16.4.3'
-  - '@next/swc-linux-arm64-gnu@16.4.3'
-  - '@next/swc-linux-arm64-musl@16.4.3'
-  - '@next/swc-linux-x64-gnu@16.4.3'
-  - '@next/swc-linux-x64-musl@16.4.3'
-  - '@next/swc-win32-arm64-msvc@16.4.3'
-  - '@next/swc-win32-x64-msvc@16.4.3'
-  - '@next/mdx@16.4.3'
+  - next@16.4.5
+  - eslint-config-next@16.4.5
+  - '@next/eslint-plugin-next@16.4.5'
+  - '@next/env@16.4.5'
+  - '@next/swc-darwin-arm64@16.4.5'
+  - '@next/swc-darwin-x64@16.4.5'
+  - '@next/swc-linux-arm64-gnu@16.4.5'
+  - '@next/swc-linux-arm64-musl@16.4.5'
+  - '@next/swc-linux-x64-gnu@16.4.5'
+  - '@next/swc-linux-x64-musl@16.4.5'
+  - '@next/swc-win32-arm64-msvc@16.4.5'
+  - '@next/swc-win32-x64-msvc@16.4.5'
+  - '@next/mdx@16.4.5'
   - minimatch@11.0.1
   - glob@14.0.2
   - '@isaacs/nonrecursive-glob-match@1.0.1'
